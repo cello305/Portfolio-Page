@@ -1,0 +1,33 @@
+.section-1 {
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 0 250px; 
+  justify-content: center; 
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 200px;
+  height: 300px;
+}
+
+.grid-item:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+.grid-item:hover {
+  background-color: #d9d9d9;
+}
+
+.grid-item:active {
+  background-color: #cccccc;
+}
